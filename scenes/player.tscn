@@ -6,8 +6,11 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_afy86"]
 size = Vector2(18, 23)
 
-[node name="CharacterBody2D" type="CharacterBody2D" unique_id=1229040368]
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=1229040368 node_paths=PackedStringArray("player_sprite")]
 script = ExtResource("3_qhqgy")
+player_sprite = NodePath("AnimatedSprite2D")
+speed = 200.0
+jump_velocity = -300.0
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1051685448]
 sprite_frames = ExtResource("1_3vyb7")
