@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://lg03c5g7iawu"]
 
-[ext_resource type="SpriteFrames" uid="uid://by4n5tvwhul5u" path="res://resources/player/anims/player_idle_anim.tres" id="1_3vyb7"]
+[ext_resource type="SpriteFrames" uid="uid://by4n5tvwhul5u" path="res://resources/player/anims/player_anims.tres" id="1_3vyb7"]
 [ext_resource type="Script" uid="uid://cr0q7ev0gr2ab" path="res://scripts/player_movement.gd" id="3_qhqgy"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_afy86"]
@@ -14,8 +14,7 @@ jump_velocity = -300.0
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1051685448]
 sprite_frames = ExtResource("1_3vyb7")
-animation = &"idle"
-frame_progress = 0.21295395
+animation = &"jump"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1171860539]
 shape = SubResource("RectangleShape2D_afy86")
