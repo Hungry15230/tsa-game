@@ -1,9 +1,12 @@
 [gd_scene format=3 uid="uid://lg03c5g7iawu"]
 
 [ext_resource type="SpriteFrames" uid="uid://by4n5tvwhul5u" path="res://resources/player/anims/player_idle_anim.tres" id="1_3vyb7"]
+[ext_resource type="Script" uid="uid://ie3hbmy51w2f" path="res://scripts/player.gd" id="1_g2els"]
 
 [node name="player" type="Node2D" unique_id=832273500]
+script = ExtResource("1_g2els")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1051685448]
 sprite_frames = ExtResource("1_3vyb7")
-frame_progress = 0.26364705
+animation = &"idle"
+frame_progress = 0.21295395

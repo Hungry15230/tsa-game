@@ -12,3 +12,5 @@ position = Vector2(-46, -47)
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1783251795]
 scale = Vector2(0.9856854, 1)
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1975799009]
