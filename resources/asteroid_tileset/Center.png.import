@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://beymr282v1dmv"
-path="res://.godot/imported/Genuinely_no_idea_what_to_call_this_one.png-a469de93e3fab4d784053e3d304bc21a.ctex"
+uid="uid://bjdc361slaklc"
+path="res://.godot/imported/Center.png-2393f47a60654e78bbcfff1edeff0157.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://resources/Genuinely_no_idea_what_to_call_this_one.png"
-dest_files=["res://.godot/imported/Genuinely_no_idea_what_to_call_this_one.png-a469de93e3fab4d784053e3d304bc21a.ctex"]
+source_file="res://resources/asteroid_tileset/Center.png"
+dest_files=["res://.godot/imported/Center.png-2393f47a60654e78bbcfff1edeff0157.ctex"]
 
 [params]
 

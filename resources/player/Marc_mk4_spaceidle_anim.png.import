@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dnhwhua0orgxc"
-path="res://.godot/imported/Corner.png-0f0753302d2b21bb352147d53a135720.ctex"
+uid="uid://dd1q83waljp6c"
+path="res://.godot/imported/Marc_mk4_spaceidle_anim.png-cf8d847c715abadf5903ceba1435a177.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://resources/Corner.png"
-dest_files=["res://.godot/imported/Corner.png-0f0753302d2b21bb352147d53a135720.ctex"]
+source_file="res://resources/player/Marc_mk4_spaceidle_anim.png"
+dest_files=["res://.godot/imported/Marc_mk4_spaceidle_anim.png-cf8d847c715abadf5903ceba1435a177.ctex"]
 
 [params]
 

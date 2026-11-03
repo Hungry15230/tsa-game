@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bnaqinntargib"
-path="res://.godot/imported/Line_segment.png-007ae7d5415eb615c407dfded6830659.ctex"
+uid="uid://ce2d42vjid60g"
+path="res://.godot/imported/Edge_4.png-26930d18327c8c3b65c828792e9ecff3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://resources/Line_segment.png"
-dest_files=["res://.godot/imported/Line_segment.png-007ae7d5415eb615c407dfded6830659.ctex"]
+source_file="res://resources/asteroid_tileset/Edge_4.png"
+dest_files=["res://.godot/imported/Edge_4.png-26930d18327c8c3b65c828792e9ecff3.ctex"]
 
 [params]
 

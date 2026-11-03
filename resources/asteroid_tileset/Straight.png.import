@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://lmtxefx0j2jq"
-path="res://.godot/imported/Markmk4spacewalk.png-2ce704a6d86674b8bd3daab49f6aa391.ctex"
+uid="uid://54kfxhajsjem"
+path="res://.godot/imported/Straight.png-6607a6c872975d860771a1db9301cd31.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://resources/Markmk4spacewalk.png"
-dest_files=["res://.godot/imported/Markmk4spacewalk.png-2ce704a6d86674b8bd3daab49f6aa391.ctex"]
+source_file="res://resources/asteroid_tileset/Straight.png"
+dest_files=["res://.godot/imported/Straight.png-6607a6c872975d860771a1db9301cd31.ctex"]
 
 [params]
 

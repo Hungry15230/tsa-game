@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://br5ufnigs3pra"
-path="res://.godot/imported/Side.png-bc788b0fd083b9d9e20ee797682bdce2.ctex"
+uid="uid://bcudkvd02qx0x"
+path="res://.godot/imported/Corner_2.png-98925515e623c98f4219b65e9f60ff70.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://resources/Side.png"
-dest_files=["res://.godot/imported/Side.png-bc788b0fd083b9d9e20ee797682bdce2.ctex"]
+source_file="res://resources/asteroid_tileset/Corner_2.png"
+dest_files=["res://.godot/imported/Corner_2.png-98925515e623c98f4219b65e9f60ff70.ctex"]
 
 [params]
 

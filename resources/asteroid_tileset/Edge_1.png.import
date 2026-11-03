@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://21pjsvw8wbt4"
-path="res://.godot/imported/Middle.png-c990acb5fffff877029ef844e5bf0339.ctex"
+uid="uid://0eartk67nlar"
+path="res://.godot/imported/Edge_1.png-9bfdcf4eb280e5700b166f6fb067cba9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://resources/Middle.png"
-dest_files=["res://.godot/imported/Middle.png-c990acb5fffff877029ef844e5bf0339.ctex"]
+source_file="res://resources/asteroid_tileset/Edge_1.png"
+dest_files=["res://.godot/imported/Edge_1.png-9bfdcf4eb280e5700b166f6fb067cba9.ctex"]
 
 [params]
 

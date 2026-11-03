@@ -1,0 +1,10 @@
+[gd_scene format=4 uid="uid://s8j3uuu8a1at"]
+
+[ext_resource type="TileSet" uid="uid://b5fj65mrnpg5o" path="res://resources/asteroid_tileset/asteroid_tileset.tres" id="1_o5qli"]
+
+[node name="asteroids" type="Node2D" unique_id=1759707247]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=997810977]
+texture_filter = 1
+tile_map_data = PackedByteArray("AAD9/wAADQABAAIAAGD+////DQABAAAAAAD+/wAADQABAAEAAGD+/wEADQABAAAAAGD///7/DQABAAAAAAD/////DQAAAAEAAAD//wAADQAAAAAAAAD//wEADQACAAEAADAAAP3/DQABAAIAAAAAAP7/DQABAAEAAAAAAP//DQAAAAAAAAAAAAAADQAAAAEAADAAAAEADQABAAAAADABAP7/DQABAAAAAFABAP//DQACAAEAAFABAAAADQABAAAAADA=")
+tile_set = ExtResource("1_o5qli")
