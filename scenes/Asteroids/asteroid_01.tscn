@@ -2,7 +2,7 @@
 
 [ext_resource type="TileSet" uid="uid://b5fj65mrnpg5o" path="res://resources/asteroid_tileset/asteroid_tileset.tres" id="1_o5qli"]
 
-[node name="asteroids" type="Node2D" unique_id=1759707247]
+[node name="Asteroid_01" type="Node2D" unique_id=1759707247]
 
 [node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=997810977]
 texture_filter = 1

@@ -1,11 +1,9 @@
 [gd_scene format=3 uid="uid://c3fngabup1hng"]
 
-[ext_resource type="PackedScene" uid="uid://s8j3uuu8a1at" path="res://scenes/asteroids.tscn" id="1_rwgxs"]
+[ext_resource type="PackedScene" uid="uid://s8j3uuu8a1at" path="res://scenes/Asteroids/asteroid_01.tscn" id="1_rwgxs"]
 [ext_resource type="PackedScene" uid="uid://lg03c5g7iawu" path="res://scenes/player.tscn" id="2_4wyf3"]
 
-[node name="world" type="Node2D" unique_id=2049107240]
-
-[node name="Asteroids" parent="." unique_id=1759707247 instance=ExtResource("1_rwgxs")]
+[node name="World" type="Node2D" unique_id=2049107240]
 
 [node name="Player" parent="." unique_id=832273500 instance=ExtResource("2_4wyf3")]
 position = Vector2(-46, -47)
@@ -14,3 +12,5 @@ position = Vector2(-46, -47)
 scale = Vector2(0.9856854, 1)
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1975799009]
+
+[node name="Asteroid_01" parent="." unique_id=1759707247 instance=ExtResource("1_rwgxs")]
