@@ -4,7 +4,15 @@
 
 [node name="Asteroid_01" type="Node2D" unique_id=1759707247]
 
-[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=997810977]
+[node name="Tiles" type="TileMapLayer" parent="." unique_id=997810977]
 texture_filter = 1
 tile_map_data = PackedByteArray("AAD9/wAADQABAAIAAGD+////DQABAAAAAAD+/wAADQABAAEAAGD+/wEADQABAAAAAGD///7/DQABAAAAAAD/////DQAAAAEAAAD//wAADQAAAAAAAAD//wEADQACAAEAADAAAP3/DQABAAIAAAAAAP7/DQABAAEAAAAAAP//DQAAAAAAAAAAAAAADQAAAAEAADAAAAEADQABAAAAADABAP7/DQABAAAAAFABAP//DQACAAEAAFABAAAADQABAAAAADA=")
 tile_set = ExtResource("1_o5qli")
+
+[node name="GravitationalField" type="Area2D" parent="." unique_id=2075375400]
+gravity_space_override = 3
+gravity_point = true
+gravity_point_unit_distance = 80.0
+
+[node name="Field" type="CollisionPolygon2D" parent="GravitationalField" unique_id=640345806]
+polygon = PackedVector2Array(-214, 2, -192, 101, -117, 162, 92, 165, 177, 116, 203, 22, 189, -59, 155, -142, 92, -172, -15, -180, -106, -165, -186, -85)

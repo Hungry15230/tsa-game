@@ -1,20 +1,52 @@
 [gd_scene format=3 uid="uid://lg03c5g7iawu"]
 
 [ext_resource type="SpriteFrames" uid="uid://by4n5tvwhul5u" path="res://resources/player/anims/player_anims.tres" id="1_3vyb7"]
-[ext_resource type="Script" uid="uid://cr0q7ev0gr2ab" path="res://scripts/player_movement.gd" id="3_qhqgy"]
+[ext_resource type="Script" uid="uid://p41i3dlcoekd" path="res://scripts/player_movement_v2.gd" id="1_qhqgy"]
+[ext_resource type="Script" uid="uid://bgpqg5l0o4is2" path="res://scripts/player_camera_2d.gd" id="3_dqkch"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_afy86"]
-size = Vector2(18, 23)
+size = Vector2(18, 24)
 
-[node name="CharacterBody2D" type="CharacterBody2D" unique_id=1229040368 node_paths=PackedStringArray("player_sprite")]
-script = ExtResource("3_qhqgy")
-player_sprite = NodePath("AnimatedSprite2D")
-speed = 200.0
-jump_velocity = -300.0
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=1229040368]
+script = ExtResource("1_qhqgy")
+jump_velocity = -200.0
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1051685448]
+position = Vector2(1, -2)
 sprite_frames = ExtResource("1_3vyb7")
-animation = &"jump"
+animation = &"idle"
+frame = 1
+frame_progress = 0.6228564
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1171860539]
 shape = SubResource("RectangleShape2D_afy86")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1579237936 node_paths=PackedStringArray("target")]
+ignore_rotation = false
+script = ExtResource("3_dqkch")
+target = NodePath("..")
+
+[node name="RayCenter" type="RayCast2D" parent="." unique_id=2086186071]
+position = Vector2(0, 12)
+target_position = Vector2(0, 11)
+hit_from_inside = true
+
+[node name="RayLeft" type="RayCast2D" parent="." unique_id=771852488]
+position = Vector2(-9, 12)
+target_position = Vector2(-7, 0)
+hit_from_inside = true
+
+[node name="RayLeftCliff" type="RayCast2D" parent="." unique_id=1614916530]
+position = Vector2(-9, 12)
+target_position = Vector2(-11, 11)
+hit_from_inside = true
+
+[node name="RayRight" type="RayCast2D" parent="." unique_id=562125048]
+position = Vector2(9, 12)
+target_position = Vector2(7, 0)
+hit_from_inside = true
+
+[node name="RayRightCliff" type="RayCast2D" parent="." unique_id=852809037]
+position = Vector2(9, 12)
+target_position = Vector2(11, 11)
+hit_from_inside = true
